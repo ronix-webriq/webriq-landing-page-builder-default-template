@@ -1,0 +1,38 @@
+{
+  "name": "@webriq/landing-page-builder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Dorell James <galangdj@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@andre-brdoch/sanity-plugin-schema-inspector": "^1.4.0",
+    "@sanity/base": "^2.6.4",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.6.2",
+    "@sanity/default-layout": "^2.6.4",
+    "@sanity/default-login": "^2.2.6",
+    "@sanity/desk-tool": "^2.6.4",
+    "@sanity/production-preview": "^2.2.6",
+    "@sanity/vision": "^2.2.6",
+    "braille": "^1.1.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.2.0",
+    "sanity-plugin-color-list": "^2.0.1",
+    "sanity-plugin-json-input": "^0.1.0",
+    "sanity-plugin-parts-list": "^1.0.2",
+    "sanity-plugin-tabs": "^2.0.1",
+    "sanity-plugin-visual-options": "^0.8.4"
+  },
+  "devDependencies": {}
+}
